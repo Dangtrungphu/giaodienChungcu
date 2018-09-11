@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+ 
+    <link rel="stylesheet" href="./style.css">  
+</head>
+  <body>   
+    <nav class="navbar navbar-expand-xl navbar-dark thanhmenu text-white py-1 px-5 ">        
+        <a class="navbar-brand" href="#"><img src="./img/logo-chu-p-2.png" class="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample06" aria-controls="navbarsExample06" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+       
+        <div class="navbar-collapse collapse show" id="navbarsExample06" >  
+        
+         <form class="form-inline my-2 my-md-0  ">
+            <input class="form-control " type="text" placeholder="Tìm kiếm" >
+         </form>    
+          <ul class="navbar-nav btnleft fontul">           
+            <li class="nav-item active colorlink canhan nutlink">
+              <img src="./img/anhdaidien.jpg" class="anhdaidien mt-1 mx-1">
+              <a class="nav-link " href="#">(Tên)<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item colorlink nutlink">
+              <a class="nav-link" href="#">Trang chủ</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link disabled" href="#"><i class="fab fa-facebook-messenger "></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#"><i class="fas fa-globe-asia"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#"><i class="fas fa-question-circle"></i></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link tamgiac " href="https://example.com" id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-caret-down"></i></a>
+              <div class="dropdown-menu" aria-labelledby="dropdown06">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container-fluid">
+            <div class="row">
+              <nav class="col-sm-3 col-md-2 hidden-xs-down bg-faded sidebar menuleft ml-4">
+                <ul class="nav nav-pills flex-column">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Quản Lý Chung cư <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link bangtin" href="#">
+                        <i class="bangtinimg bangtin"></i>  Bảng tin</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link bangtin" href="#">
+                        <i class="mesimg bangtin"></i>  Messenger</a>
+                  </li>                  
+                </ul>  
+              </nav>
+      
+              <main class="col-sm-9 offset-sm-3 col-md-10 offset-md-2 pt-5 pt-md-5 main">
+                <div class="row mx-3">
+                    <div class="col-7 ">
+                            <div class="card mt-2">
+                                <div class="card-header">
+                                    <ul class="nav nav-tabs card-header-tabs">
+                                        <li class="nav-item">
+                                            <a class="nav-link active" href="#"><i class="fas fa-pen-fancy"></i> Bài viết</a>
+                                        </li>                                       
+                                    </ul>
+                                 </div>
+                                 <div class="card-body">
+                                        <div class="row baivietnd">
+                                            <div class="col-1 mx-1">
+                                                <img src="./img/anhdaidien.jpg" class="anhdaidienbv mt-1 mx-1 ">
+                                            </div>
+                                            <div class="col-10 mx-2">
+                                                <textarea class="noidungbv" placeholder="Bạn đang nghĩ gì....."></textarea>
+                                            </div>
+                                        </div>
+                                   </div>
+                                  <div class="card-footer">
+                                    <div class="btn btnanh ">
+                                        <i class="imganh"></i> 
+                                        <label>Ảnh/Video</label>
+                                    </div>
+                                    <div class="btn btnanh ">
+                                        <i class="imgcamxuc"></i> 
+                                        <label>Cảm xúc/Hoạt động</label>
+                                    </div>
+                                    <div onclick="javascript:alert('Đã đăng bài')" class="btn btndangbai">
+                                        Đăng bài
+                                    </div>
+                                  </div>
+                            </div>
+                            <!-- Card bài viết -->
+                            <div class="card mt-2" >
+                              <div class="header">
+                                <div class="content">
+                                  <div class="container-fluid my-1  ">
+                                      <div class="card khungbv">
+                                          <div class="morong">
+                                              <i class="fas fa-ellipsis-h"></i>
+                                          </div>
+                                          <div class="header">
+                                              <div class="form-group">
+                                                  <div class="row mt-2 cardhead">
+                                                      <div class="col-md-1">
+                                                          <img src="./img/anhdaidien.jpg" class="anhdaidienbv ml-2 mr-2" />
+                                                      </div>
+                                                      <div class="col-md-8 mx-2">
+                                                          <h4 class="title">Tên người dùng</h4>
+                                                          <p style="font-size:11px;color:#a39e9e">Ngày viết</p>
+                                                      </div>
+                                                  </div>
+                                              <p class="category mx-2 mb-0">
+                                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequatur fugiat aspernatur accusamus quidem quaerat odit sint consequuntur illum modi, omnis ut sapiente? Illo aspernatur odio quam facere ratione repudiandae?
+                                              </p>
+                                              <div class="row anhbv mt-2">
+                                                  <div class="col-md-6 mt-1">
+                                                      <img src="./img/1.jpg" />
+                                                  </div>
+                                                  <div class="col-md-6 mt-1" >
+                                                      <img src="./img/2.jpg" />
+                                                  </div>
+                                                  <div class="col-md-6  mt-1">
+                                                      <img src="./img/3.jpg" />
+                                                  </div>
+                                                  <div class="col-md-6 mt-1">
+                                                      <img src="./img/4.jpg" />
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>                                     
+                                      <div class="btn slluong">
+                                        <form>
+                                            <div class="sll">
+                                                <i class="icon"></i>
+                                                <label class="ml-1">(số lượng like)</label>
+                                            </div>
+                                            <div class="slcmt">
+                                                <i class="far fa-comment-alt"></i>
+                                                <label>(số lượng cmt)</label>
+                                            </div>
+                                        </form>   
+                                      </div>
+                                      <hr/>
+                                      <div class="tuongtac">
+                                        <div class="btn like px-3 btnanh mx-5">
+                                            <i class="far fa-thumbs-up"></i>
+                                         Thích
+                                        </div>
+                                        <div class="btn like px-3 btnanh mx-5 ">
+                                            <i class="far fa-comment-alt"></i>
+                                         Comment
+                                        </div>
+                                        
+                                        <hr/>     
+                                      </div>                                    
+                                      <div class="row" >
+                                          <div class="col-1">
+                                              <img src="./img/anhdaidien.jpg" class="anhdaidienbv mx-1 my-1" />
+                                          </div>
+                                          <div class="col-10 mx-2">
+                                            <form class="mt-2">
+                                              <div>
+                                                  <textarea  id="myInput" class="cmt mx-1 pl-2" placeholder="Viết phản hồi....."></textarea>    
+                                              </div>                      
+                                                <div id="myBtn" onclick="javascript:alert('Đã comment')" class="btn btn-success btndangcmt hide">
+                                                    Bình luận
+                                                </div>
+                                            </form>
+                                           
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              </div>
+                          </div>                            
+                            </div>
+                            <!-- End Card bài viết -->    
+                                                   
+                </div>
+                <div class="col-3 col-md-4 mt-2">
+                  <div class="row">
+                      <div class="col-1"></div>
+                      <div class="col-10">                        
+                          <div class="card">
+                            <h3 class="card-header">Thông báo</h3>
+                            <div class="card-body">
+                              <h4 class="card-title">Tiêu đề</h4>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repellat, possimus itaque, pariatur voluptates reprehenderit magnam, modi eos hic ratione officia dolorum impedit veniam. Asperiores optio pariatur odit aspernatur saepe!</p>
+                            </div>
+                            <div class="card-footer"></div>
+                          </div>
+                          <div class="card my-4">
+                            <h3 class="text-center card-header">Quảng cáo</h3>
+                            <div class="mx-1">
+                              <img src="./img/strawberries-3359755_1920.jpg" class="quangcao my-1"/>
+                              <img src="./img/strawberries-3359755_1920.jpg" class="quangcao my-1"/>
+                              <p class="card-text my-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repellat, possimus itaque, pariatur voluptates reprehenderit magnam, modi eos hic ratione officia dolorum impedit veniam. Asperiores optio pariatur odit aspernatur saepe!</p>
+                            </div>                            
+                          </div>
+                      </div>
+                  </div>                            
+              </div>
+      
+             
+              </main>
+            </div>
+          </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+    <script role="javascript" src="./chungcu.js"></script>
+  </body>
+</html>
